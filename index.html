@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="logo">
+                <img src="./images/Vector.svg" alt="Logo">
+                <h1 class="logo-title">Gitpod</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">We're hiring</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <button class="btn">Login</button>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="always-ready">
+                <div class="tagline"> 
+                    <h3>Always <br>Ready to Code.</h3>
+                    <p>Spin up fresh, automated dev environments <br>for each task, in the cloud, in seconds.</p>
+                    <div class="try-now">
+                        <button class="try-btn">Try Now</button>
+                        <span>Open a workspace. <br>Start from any Git context.</span>
+                    </div>
+                    <ul class="soc-img">
+                        <li><img src="./images/Fox.png" alt="fox"></li>
+                        <li><img src="./images/GitHub.png" alt="GitHub"></li>
+                        <li><img src="./images/Box.png" alt="Box"></li>
+                    </ul>
+                </div>
+                <div class="tagline-image">
+                    <img src="./images/Rectangle.png" alt="room">
+                </div>
+            </section>
+
+            <section class="select-project">
+                <h4>
+                    Select project,
+                    <br>
+                <span class="line-through">
+                    check dependencies, checkout branch, view
+                    <br>readme.txt, install tools, run build, run test,
+                </span>
+                <br>
+                start coding.
+            </h4>
+            </section>
+
+            <section class="think">
+                <div class="think-content">
+                    <div class="think-content-text">
+                        <h3>Think CI/CD for dev environments</h3>
+                        <p>We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+                    </div>
+                        <div class="think-btns">
+                            <button class="think-btn btn-yellow">More on prebuilds</button>
+                            <button class="think-btn btn-rose">Documentation</button>
+                        </div>
+                </div>
+                <div class="think-image">
+                    <img src="./images/Code.png" alt="code">
+                </div>
+            </section>
+
+            <section class="remote">
+                <div class="remote-first">
+                    <h3>Remote-first. Secure by design.</h3>
+                </div>
+                <div class="remote-image">
+                    <img src="./images/Remote.png" alt="#">
+                </div>
+                <div class="remote-desc">
+                    <div class="remote-desc-text">
+                        <p>You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+                    </div>
+                    <div class="remote-desc-btns">
+                        <button class="remote-btn btn-chrome">
+                            <img class="img-remote chrome" src="./images/Chrome.png" alt="chrome">
+                            <div class="btn-text">Chrome Extension</div>
+                        </button>
+                        <button class="remote-btn btn-firefox">
+                            <img class="img-remote firefox" src="./images/Firefox.png" alt="firefox">
+                            <div class="btn-text">Firefox Extension</div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="used">
+                <div class="used-header">
+                    <h3>Used by 400,000+ developers.</h3>
+                </div>
+                <div class="used-block">
+                    <div class="used-block-first box">
+                        <p>GitPod is incredibly cool.<br> <br> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+                        <div class="avatar-text">
+                            <div class="avatar-img">
+                                <img src="./images/AvaFirst.png" alt="avatar">
+                            </div>
+                                <div class="name-username">
+                                    <h4>Ben Halpern</h4> 
+                                    <p>Creator and Co-founder <span class="bold"> @forem </span> and <span class="bold"> @ThePracticalDev </span></p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="used-block-second box">
+                        <p>Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.<br> <br> Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+                        <div class="avatar-text">
+                            <div class="avatar-img">
+                                <img src="./images/AvaSecond.png" alt="avatar">
+                            </div>
+                                <div class="name-username">
+                                    <h4>Michael Friedrich</h4>
+                                    <p>Developer Evangelist <span class="bold"> @GitLab </span></p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="used-block-third box">
+                        <p>Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                        <div class="avatar-text">
+                            <div class="avatar-img">
+                                <img src="./images/AvaThird.png" alt="avatar">
+                            </div>
+                                <div class="name-username">
+                                    <h4>Julius Volz</h4>
+                                    <p>Creator <span class="bold"> @PrometheusIO </span></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies">
+                    <ul class="company-ul">
+                        <li><img src="./images/logoGitHub.png" alt="#"></li>
+                        <li><img src="./images/logoFreeCode.png" alt="#"></li>
+                        <li><img src="./images/logoDiwave.png" alt="#"></li>
+                        <li><img src="./images/logoGoogle.png" alt="#"></li>
+                        <li><img src="./images/logoAmazon.png" alt="#"></li>
+                        <li><img src="./images/logoFacebook.png" alt="#"></li>
+                        <li><img src="./images/logoUber.png" alt="#"></li>
+                        <li><img src="./images/logoOpenAI.png" alt="#"></li>
+                        <li><img src="./images/logoIntel.png" alt="#"></li>
+                        <li><img src="./images/logoTheia.png" alt="#"></li>
+                        <li><img src="./images/logoCodeInstitute.png" alt="#"></li>
+                        <li><img src="./images/logo4Geeks.png" alt="#"></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="get-started">
+                <div class="get-started-header">
+                    <h3>Get started now</h3>
+                </div>
+                <div class="connect-box">
+                <div class="connect">
+                    <div class="connect-header">
+                        <h4>Connect Git repository</h4>
+                        <p>Select a Git provider to start with an existing project from any Git context.</p>
+                    </div>
+                    <div class="connect-btns-box">
+                        <button class="connect-btns gitlab-btn">
+                            <img src="./images/BtnGitLab.png" alt="gitlab">
+                            Continue with GitLab
+                        </button>
+                        <button class="connect-btns github-btn">
+                            <img src="./images/BtnGitHub.png" alt="github">
+                            Continue with GitHub
+                        </button>
+                        <button class="connect-btns bitbucket-btn">
+                            <img src="./images/BtnBitbucket.png" alt="bitbucket">
+                            Continue with Bitbucket
+                        </button>
+                    </div>
+                    <div class="connect-bottom">
+                        <p>Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                        <div class="gitpod">
+                            <a href="#">gitpod.io/#</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="launch">
+                    <div class="launch-header">
+                        <h4>Launch an example workspace</h4>
+                        <p>Dive into one of our example workspaces</p>
+                    </div>
+                    <div class="launch-workspaces">
+                        <div class="workspaces-ul-left">
+                            <div class="workspaces-ul-left-img">
+                                <ul class="workspaces-left-img">
+                                    <li><img src="./images/LiNode.png" alt="#"></li>
+                                    <li><img src="./images/LiPython.png" alt="#"></li>
+                                    <li><img src="./images/LiGo.png" alt="#"></li>
+                                    <li><img src="./images/LiRust.png" alt="#"></li>
+                                    <li><img src="./images/LiJava.png" alt="#"></li>
+                                    <li><img src="./images/LiSvelte.png" alt="#"></li>                                    
+                                </ul>
+                            </div>
+                            <div class="workspaces-left-ul">
+                                <ul class="workspaces-left">
+                                    <li>Node or TypeScript</li>
+                                    <li>Python</li>
+                                    <li>Go</li>
+                                    <li>Rust</li>
+                                    <li>Java</li>
+                                    <li>Svelte</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="workspaces-ul-right">
+                            <ul class="workspaces">
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                                <li><button class="launch-btns">Launch workspace</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <section class="navig">
+                <div class="gitpod-nav">
+                    <li> <h2>Gitpod</h2></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Self-Hosted</a></li>
+                    <li><a href="#">Gitpod vs GitHub <br>Codespaces</a></li>
+                    <li><a href="#">Status</a></li>
+                </div>
+                <div class="developer">
+                    <li><h2>Developer</h2></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Screencasts</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Report a bug</a></li>
+                    <li><a href="#">Community</a></li>
+                </div>
+                <div class="company">
+                    <li><h2>Company</h2></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </div>
+                <div class="legal">
+                    <li><h2>Legal</h2></li>
+                    <li><a href="#">Imprint</a></li>
+                    <li><a href="#">Terms of Saervice</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </div>
+            </section>
+            <section class="copyright-footer">
+                <div class="bottom-line"></div>
+                <div class="bottom-vopyright">
+                <div class="copyright">
+                    <div class="logo-footer">
+                        <img src="./images/LogoFooter.png" alt="#">
+                        <p>Copyright © 2021 Gitpod</p>
+                    </div>
+                    <div class="logo-footer-right">
+                        <img src="./images/LogoTwitter.png" alt="#">
+                        <img src="./images/LogoGit.png" alt="#">
+                        <img src="./images/LogoMessage.png" alt="#">
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="footer-bottom">
+                <div class="bottom-footer">
+                    <div class="bottom-footer-text">
+                        <p>This website uses cookies to enhance the user experience. Read our <span class="line">privacy policy</span> for more info.</p>
+                    </div>
+                    <div class="bottom-footer-btn">
+                        <button class="bottom-btn">Accept Cookies</button>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </div>
+</body>
+</html>
